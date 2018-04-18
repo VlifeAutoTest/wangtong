@@ -23,14 +23,16 @@ import org.junit.runners.Parameterized.Parameters;
 		@Parameters
 		public static Collection userData(){  
 			return Arrays.asList(new Object[][]{  
-		                {"A",97},
-		                {"B",88},
+		                {"A",100},
+				{"A",99},
+		                {"B",86},
 		                {"C",78},
 		                {"D",65},
-		                {"N",18},
-		                {"N",52},
-		                {"F",120},
-		                {"F",-5}
+		                {"N",1},
+		                {"N",0},
+		                {"F",101},
+		                {"F",-1},
+				{"A",101}
 		                
 			 }) ;  
 		}
